@@ -1,0 +1,31 @@
+dplyr: corre en c, por lo que da la velocidad de C y la facilidad de uso de R
+
+tbl: 
+var<-read.csv ... 
+#Check the type of variable
+class(var)
+#View its dimensions
+dim(var)
+
+#Look at the column names
+names(var)
+
+#tells how many rows and columns we got (rows->observations, columns-> variables)
+str(var)
+
+#gots min,max, median, mean, 1st quarter,3rd quarter, etc
+summary(var)
+
+Basically:
+class():class of data object
+dim():Dimensions of data
+names():column names
+str():preview of data with helpful details
+glimpse():Better version of str() from dplyr
+summary():Summary of data
+
+head():View top of dataset
+tail():View bottom of dataset
+print():View entire dataset(not recommended)
+hist():View histogram of a single variable
+plot():View plot of two variables
